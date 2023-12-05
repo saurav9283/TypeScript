@@ -6,6 +6,7 @@ interface MyContextData {
   decrement: () => void;
 }
 
+
 const MyContext = createContext<MyContextData | undefined>(undefined);
 
 interface MyProviderProps {
